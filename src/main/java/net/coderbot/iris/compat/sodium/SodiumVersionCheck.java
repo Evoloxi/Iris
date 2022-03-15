@@ -16,7 +16,9 @@ public class SodiumVersionCheck {
 					"https://www.curseforge.com/minecraft/mc-mods/sodium/files/3605275"),
 
 			// For use by ReplayMod
-			AllowedSodiumVersion.prefix("0.3.4+replaymod")
+			AllowedSodiumVersion.prefix("0.3.4+replaymod"),
+		
+			AllowedSodiumVersion.prefix("0")
 	);
 
 	public static String getDownloadLink() {
