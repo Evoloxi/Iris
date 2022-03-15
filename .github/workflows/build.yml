@@ -42,10 +42,10 @@ jobs:
 
         files: build/libs/!(*-@(dev|sources|all)).jar
 
-          version-type: release
+        version-type: release
 
-          loaders: fabric
+        loaders: fabric
 
-          dependencies: sodium | depends | *
+        dependencies: sodium | depends | *
 
-          version-resolver: latest # Defaults to selecting the latest compatible version of Minecraft, using the tag from the fabric.mod.json
+        version-resolver: latest # Defaults to selecting the latest compatible version of Minecraft, using the tag from the fabric.mod.json
